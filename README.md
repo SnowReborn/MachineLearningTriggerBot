@@ -14,3 +14,7 @@ Real time image capture following mouse cursor, the most up to date image will b
 tested works on aimbooster.com, CSGO, humanbenchmark.com
 
 Implemented Multi Thread support to solve latency issue, enabling faster image grab process \ no wait time for model comparison.
+
+Automatically generates splite folder which evenly and randomly separates raw trainning data images into groups of "Trainning data", "verify data", and "validation data".
+
+Also created FPS version of model comparison triggerbot, which revised screencapture method, instead of following cursor, the Capture will always be located at the center of screen with 500x500 resolution pixel counts.
